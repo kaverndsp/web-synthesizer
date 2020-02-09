@@ -2,7 +2,7 @@ import React from "react";
 import * as Tone from "tone";
 
 
-const AmSynth =(event) => {
+const AmSynth =() => {
    
 
       
@@ -74,19 +74,21 @@ const B = () => {
         
         <div>
            
-            <h2>Amplitude Modulation Synthesis</h2>
-            <button onClick={C}>C</button>
-            <button onClick={Csharp}>C#</button>
-            <button onClick={D}>D</button>
-            <button onClick={Dsharp}>D#</button>
-            <button onClick={E}>E</button>
-            <button onClick={F}>F</button>
-            <button onClick={Fsharp}>F#</button>
-            <button onClick={G}>G</button>
-            <button onClick={Gsharp}>G#</button>
-            <button onClick={A}>A</button>
-            <button onClick={Asharp}>A#</button>
-            <button onClick={B}>B</button>
+            <h2 className="SynthName">Amplitude Modulation Synthesis</h2>
+            <div className="button-container">
+            <button className="flat" onClick={C}>C</button>
+            <button className="sharp" onClick={Csharp}>C#</button>
+            <button className="flat" onClick={D}>D</button>
+            <button className="sharp" onClick={Dsharp}>D#</button>
+            <button className="flat" onClick={E}>E</button>
+            <button className="flat" onClick={F}>F</button>
+            <button className="sharp" onClick={Fsharp}>F#</button>
+            <button className="flat" onClick={G}>G</button>
+            <button className="sharp" onClick={Gsharp}>G#</button>
+            <button className="sharp" className="flat" onClick={A}>A</button>
+            <button className="sharp" onClick={Asharp}>A#</button>
+            <button className="flat" onClick={B}>B</button>
+            </div>
         </div>
     )
 

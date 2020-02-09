@@ -1,10 +1,9 @@
 import React from "react";
 import * as Tone from "tone";
 
+const FmSynth = () =>{
 
-const DuoSynth = () => {
-
-    var synth = new Tone.DuoSynth().toMaster();
+    var synth = new Tone.FMSynth().toMaster();
 
     const C = () => {
         synth.triggerAttackRelease("C4", "8n");
@@ -58,7 +57,7 @@ const DuoSynth = () => {
             
             
             <div>
-                <h2 className="SynthName">Dual Synth</h2>
+                <h2 className="SynthName">Frequency Modulation Synthesis</h2>
                 <div className="button-container">
             <button className="flat" onClick={C}>C</button>
             <button className="sharp" onClick={Csharp}>C#</button>
@@ -78,6 +77,8 @@ const DuoSynth = () => {
     
 
 
+
+
 }
 
-export default DuoSynth;
+export default FmSynth;
