@@ -5,17 +5,18 @@ import Home from "./Home";
 import DuoSynth from "./DuoSynth";
 import FmSynth from "./FmSynth";
 import "./styles.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 const Router =() => {
 
 return(
 <div>
-<h1>Web Synthesizer</h1>
+<h1 className="title">Web Synthesizer</h1>
 
 <Route path="/">
     <Home/>
 </Route>
 <div className="HeadLinks">
-<Link to="/">Home</Link>
+
 <Link to="/AmSynth">AM Synth</Link>
 <Link to="/DuoSynth">Duo Synth</Link>
 <Link to="/FmSynth">FmSynth</Link>
@@ -28,9 +29,10 @@ return(
 
 <div>
     <h3 className="intro">Created with React and <a href="https://github.com/Tonejs/Tone.js">Tone.js</a></h3>
-    <h4> <a  className="github" href="https://github.com/kaverndsp/web-synthesizer">KavernDSP</a></h4>
+   
 </div>
     
+    <footer> <a href="https://github.com/kaverndsp/web-synthesizer">Github</a></footer>
 
 
 </div>

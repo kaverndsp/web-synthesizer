@@ -58,7 +58,7 @@ const DuoSynth = () => {
             
             
             <div>
-                <h2 className="SynthName">Dual Synth</h2>
+                <h2 className="SynthName">Dual MonoSynths</h2>
                 <div className="button-container">
             <button className="flat" onClick={C}>C</button>
             <button className="sharp" onClick={Csharp}>C#</button>

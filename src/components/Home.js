@@ -3,7 +3,7 @@ import React from "react";
 const Home = () =>{
 return(
     <div>
-        <h1>Choose a Synthesis Type</h1>
+        <h2>Choose a Synthesis Type</h2>
     </div>
 )
 
