@@ -2,55 +2,55 @@ import React from "react";
 import * as Tone from "tone";
 
 const FmSynth = () =>{
-
+console.log();
     var synth = new Tone.FMSynth().toMaster();
 
     const C = () => {
-        synth.triggerAttackRelease("C4", "8n");
+        synth.triggerAttackRelease("C4", "4n");
     }
     
     const Csharp = () => {
-        synth.triggerAttackRelease("C#4", "8n");
+        synth.triggerAttackRelease("C#4", "4n");
     }
     
     const D = () => {
-        synth.triggerAttackRelease("D4", "8n");
+        synth.triggerAttackRelease("D4", "4n");
     }
     
     const Dsharp = () => {
-            synth.triggerAttackRelease("D#4", "8n");
+            synth.triggerAttackRelease("D#4", "4n");
     }
     
     const E = () => {
-        synth.triggerAttackRelease("E4", "8n");
+        synth.triggerAttackRelease("E4", "4n");
     }
     
     const F = () => {
-        synth.triggerAttackRelease("F4", "8n");
+        synth.triggerAttackRelease("F4", "4n");
     }
     
     const Fsharp = () => {
-        synth.triggerAttackRelease("F#4", "8n");
+        synth.triggerAttackRelease("F#4", "4n");
     }
     
     const G = () => {
-        synth.triggerAttackRelease("G4", "8n");
+        synth.triggerAttackRelease("G4", "4n");
     }
     
     const Gsharp = () => {
-        synth.triggerAttackRelease("G#4", "8n");
+        synth.triggerAttackRelease("G#4", "4n");
     }
     
     const A = () => {
-        synth.triggerAttackRelease("A4", "8n");
+        synth.triggerAttackRelease("A4", "4n");
     }
     
     const Asharp = () => {
-        synth.triggerAttackRelease("A#4", "8n");
+        synth.triggerAttackRelease("A#4", "4n");
     }
     
     const B = () => {
-        synth.triggerAttackRelease("B4", "8n");
+        synth.triggerAttackRelease("B4", "4n");
     }
     return(
             
