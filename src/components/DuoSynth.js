@@ -1,58 +1,64 @@
 import React from "react";
-import * as Tone from "tone";
+
+import {C, Csharp, D, Dsharp, E, F, Fsharp, G, Gsharp, A, Asharp, B } from "./Module";
 
 
 const DuoSynth = () => {
 
-    var synth = new Tone.DuoSynth().toMaster();
+    
 
-    const C = () => {
-        synth.triggerAttackRelease("C4", "4n");
-    }
+    // const synth = new Tone.DuoSynth().toMaster();
+
+
+ 
+
+    // const C = () => {
+    //     synth.triggerAttackRelease("C4", "4n");
+    // }
     
-    const Csharp = () => {
-        synth.triggerAttackRelease("C#4", "4n");
-    }
+    // const Csharp = () => {
+    //     synth.triggerAttackRelease("C#4", "4n");
+    // }
     
-    const D = () => {
-        synth.triggerAttackRelease("D4", "4n");
-    }
+    // const D = () => {
+    //     synth.triggerAttackRelease("D4", "4n");
+    // }
     
-    const Dsharp = () => {
-            synth.triggerAttackRelease("D#4", "4n");
-    }
+    // const Dsharp = () => {
+    //         synth.triggerAttackRelease("D#4", "4n");
+    // }
     
-    const E = () => {
-        synth.triggerAttackRelease("E4", "4n");
-    }
+    // const E = () => {
+    //     synth.triggerAttackRelease("E4", "4n");
+    // }
     
-    const F = () => {
-        synth.triggerAttackRelease("F4", "4n");
-    }
+    // const F = () => {
+    //     synth.triggerAttackRelease("F4", "4n");
+    // }
     
-    const Fsharp = () => {
-        synth.triggerAttackRelease("F#4", "4n");
-    }
+    // const Fsharp = () => {
+    //     synth.triggerAttackRelease("F#4", "4n");
+    // }
     
-    const G = () => {
-        synth.triggerAttackRelease("G4", "4n");
-    }
+    // const G = () => {
+    //     synth.triggerAttackRelease("G4", "4n");
+    // }
     
-    const Gsharp = () => {
-        synth.triggerAttackRelease("G#4", "4n");
-    }
+    // const Gsharp = () => {
+    //     synth.triggerAttackRelease("G#4", "4n");
+    // }
     
-    const A = () => {
-        synth.triggerAttackRelease("A4", "4n");
-    }
+    // const A = () => {
+    //     synth.triggerAttackRelease("A4", "4n");
+    // }
     
-    const Asharp = () => {
-        synth.triggerAttackRelease("A#4", "4n");
-    }
+    // const Asharp = () => {
+    //     synth.triggerAttackRelease("A#4", "4n");
+    // }
     
-    const B = () => {
-        synth.triggerAttackRelease("B4", "4n");
-    }
+    // const B = () => {
+    //     synth.triggerAttackRelease("B4", "4n");
+    // }
     return(
             
             
